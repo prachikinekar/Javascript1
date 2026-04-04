@@ -1,0 +1,28 @@
+Q: What is differnce bt var, let const?
+Ans:
+
+
+1.var
+    -From js begining.
+    -Scope:global,function scope.
+    -Can access variable before the initialization.(No TDZ)
+    -Can reassign variable value.
+    -Can redeclare variable
+    -Initilization not mandatory
+
+2.let:
+    -ES6 feature
+    -Scope :global ,function,block/script scope.
+    -Can not access variable before the initialization.We have TypeError (TDZ) 
+    -Can reassign variable value.
+    -can not redclare variable
+    -Initialization not mandatory
+
+3.const:
+    -ES6 feature
+    -Scope: global, function, block/script scope.
+    -Can not access variable before the initialization. We have TypeError (TDZ)
+    -Can not reassign/change/update variable value.
+    -Can not redeclare variable
+    -Initialization mandatory
+

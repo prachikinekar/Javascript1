@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+
+    // 3] Ask user to enter a number. find the sum of digits of that number.
+    //    input : 125
+    //    output : 8 
+    // let input=prompt("enter a num");
+    // let sum=0;
+
+    // for (let i=0;i<input.length;i++){
+    //     sum+=input[i];
+    // }
+    // console.log(sum);
+
+    // // 4. Ask user to enter a number, print the factorial of that number.
+    // //  input: 5 
+    // // // output: 120
+
+    // let input=prompt("enter the input ");
+    // let fact=1;
+    // for(let i=1;i<=input;i++){
+    //     fact=fact*i;
+    // }
+    // console.log(fact);
+
+
+    // 5. Ask user to enter a number & check if that number is prime or not.//    8 : not prime  //    5 : prime
+
+    //   let num=prompt("enter input");
+    //   let isprime=true;
+
+    //   if(num<=1){
+    //     isprime=false;
+    //   }else{
+    //     for(let i=2;i<=Math.sqrt(num);i++){
+    //         if(num%i===0){
+    //             isprime=false;
+    //             break;
+    //         }
+    //     }
+    //   }
+
+    //   if(isprime){
+    //     console.log(num+"is prime");  
+    //   }else{
+    //            console.log(num+"is not prime");
+
+    //   }
+
+
+    // let input="aabbcdaav";
+    // let output="";
+    // let count=1;
+    // for(let i=0;i<input.length;i++){
+    //   if(input[i]===input[i+1]){
+    //     count++;
+    //   }else{
+    //     output += input[i] + count;
+    //     count = 1; 
+    //   }
+    // }
+
+    // console.log(output);
+
+
+    // let input="aabbcdaav";
+    // let output="";
+    // let count=1;
+    // for(let i=0;i<input.length;i++){
+    //   if(input[i]===input[i+1]){
+    //     count++;
+    //   }else{
+    //     output+=input[i]+count;
+    //   }
+    // }
+    // console.log(output)
+
+
+    // let inp = "aabbcddcee";
+    // let output = "";
+    // let count = 1;
+    // for (let i = 0; i <= inp.length; i++) {
+    //   if (inp[i] == inp[i + 1]) {
+    //     count++;
+    //   } else {
+    //     output += inp[i] + count;
+    //     count = 1;
+    //   }
+    // }
+    // console.log(output);
+
+
+    let num = prompt("enter a num");
+    let isprime = true;
+
+    if (num <= 1) {
+      isprime = false;
+    } else {
+      for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i == 0) {
+          isprime = false;
+          break;
+        }
+      }
+    }
+
+    if(isprime){
+      console.log('num is prime');
+
+    }else{
+     console.log('num is not prime'); 
+    }
+
+
+  </script>
+
+
+
+</body>
+
+</html>

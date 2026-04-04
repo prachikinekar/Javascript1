@@ -1,0 +1,16 @@
+#To know the any lang:
+1.variable
+2.data types.
+3.operators
+4.controls statements:
+  1. Conditional statements
+  2. loops
+  3. jump keywords
+
+  -------------------------------------------
+6.Functions
+
+-------------------------------------------
+#
+
+
